@@ -1,0 +1,287 @@
+body {
+  background-color: #fffcf8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-top {
+  position: absolute;
+  content: "";
+  top: 0%;
+  width: 100%;
+  height: 10px;
+  background: #2DB1FF;
+}
+
+.header-box {
+  width: 960px;
+  height: 74px;
+}
+
+.tel-box {
+  letter-spacing: 0.1em;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  padding: 5px 10px;
+  text-align: right;
+  font-size: 12px;
+}
+
+.header-main {
+  position: relative;
+  width: 960px;
+  height: 74px;
+  padding: 60px 0;
+  margin-left: 190px;
+}
+
+.text-box {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+main {
+  width: 960px;
+  height: 933px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .box {
+    margin: 0 48px 0 0;
+  }
+
+.nav {
+  display: block;
+  padding: 0 23px;
+}
+
+.arrow {
+  position: relative;
+  display: block;
+  padding-left: 12px;
+  color: #333;
+  text-decoration: none;
+  border-bottom: #4EC0F2 dotted 1px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.arrow:last-child {
+  border-bottom: none;
+  padding-bottom: 20px;
+}
+
+.arrow:before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-top: solid 2px rgb(243, 119, 3);
+  border-right: solid 2px rgb(243, 119, 3);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -4px;
+  transform: rotate(45deg);
+}
+
+.sidebar {
+  width: 212px;
+  height: 468px;
+}
+
+.main-list-box {
+  background-color: #fff;
+  border: #4EC0F2 solid 1px;
+  border-radius: 10px;
+  width: 212px;
+  height: 435px;
+}
+
+.main-text-box1 {
+  background-color: #fff;
+  border: dotted 1px #4EC0F2;
+  border-radius: 10px;
+  width: 166px;
+  height: 52px;
+  margin-top: 10px;
+  padding: 22px;
+}
+
+.main-text-box2 {
+  background-color: #fff;
+  border: dotted 1px #4EC0F2;
+  border-radius: 10px;
+  width: 166px;
+  height: 106px;
+  margin-top: 10px;
+  padding: 22px;
+}
+
+.main-text-box3 {
+  background-color: #fff;
+  border: dotted 1px #4EC0F2;
+  border-radius: 10px;
+  width: 166px;
+  height: 152px;
+  margin-top: 10px;
+  padding: 22px;
+}
+
+.blank {
+  margin: 0 0 20px 0;
+  padding: 0 0 10px 0;
+  border-bottom: #4EC0F2 dotted 1px;
+  font-size: 14px;
+}
+
+.dott {
+  width: 10px;
+  height: 10px;
+  background-color: #4EC0F2;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.image-text-box {
+  background-color: #fff;
+  border: dotted 1px #4EC0F2;
+  border-radius: 10px;
+  width: 658px;
+  height: 84px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.image-text {
+  font-size: 12px;
+}
+
+.image-box {
+  width: 700;
+  height: 424.66;
+  margin-bottom: 40px;
+}
+
+.qr-code {
+  width: 100px;
+  height: 100px;
+}
+
+.image-text-1 {
+  white-space: nowrap;
+}
+
+.blank2 {
+  padding-left: 13px;
+  font-size: 14px;
+  border-left: 4px solid #4EC0F2;
+  line-height: 33px;
+}
+
+.border {
+  border-bottom: #4EC0F2 1px dotted;
+  margin: 12px 0 20px 0;
+}
+
+.date-block {
+  margin: 0 0 5px 0;
+  font-size: 12px;
+}
+
+a:visited {
+  color: black;
+}
+
+.image-text-block {
+  color: #4EC0F2;
+  margin: 0 7px 0 0;
+}
+
+.p-1 {
+  font-size: 12px;
+  text-align: center;
+}
+
+footer {
+  background-color: #4EC0F2;
+  text-align: center;
+  height: 217.500px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  font-size: 12px;
+}
+
+#footer01 {
+  position: relative;
+  bottom: 100%;
+  background: #4EC0F2;
+}
+
+#footer01 .logo {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#footer01 .logo a {
+  display: inline-block;
+}
+
+#footer01 .nav a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+}
+
+#footer01 .nav {
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+#footer01 .nav a:hover {
+  color: #fff;
+}
+
+.copyright {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-icon {
+  font-weight: 400;
+  color: #fff;
+  margin: 0 5px;
+  text-align: center;
+  content: "\f009";
+  font-size: 32px;
+}
